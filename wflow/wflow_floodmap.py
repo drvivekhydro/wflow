@@ -63,7 +63,7 @@ import os.path
 import pcraster.framework
 from wflow.wf_DynamicFramework import *
 from wflow.wflow_adapt import *
-
+from pcraster import *
 
 def usage(*args):
     sys.stdout = sys.stderr
